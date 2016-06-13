@@ -130,7 +130,7 @@ def visibilities():
             s.add_visible_object(end_point)
             
         for s2 in satellites:
-            if s2 != s and (s not in s2.get_visible_objects()) and los(s, s2):
+            if s2 is not s and (s not in s2.get_visible_objects()) and los(s, s2):
                 s.add_visible_object(s2)
                 s2.add_visible_object(s)
                 
