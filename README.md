@@ -5,4 +5,5 @@
 [J.H. Conway's Game of Life](./game_of_life)  
 [The Monty Hall problem](./monty_hall)  
 [Reaction Test](./reaction_test)  
+[Sliding Puzzle](./sliding_puzzle)  
 [Solving sudokus](./sudoku)  
